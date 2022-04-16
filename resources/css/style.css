@@ -332,4 +332,39 @@ body {
         margin-right: 0;
     }
 
+    /* Comments Section */
+    .comments {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        margin-top: 1rem;
+    }
+    
+    /* Comment titles section */
+    .title-1 {
+        width: 25.8125rem;
+        margin: 0;
+    }
+
+    .title-2 {
+        width: 25.8125rem;
+        margin: 0;
+    }
+
+    .title-3 {
+        width: 25.8125rem;
+        margin: 0;
+    }
+    
+    /* Name & Verified buyer */
+    .t1-header {
+        margin-right: 20rem;
+    }
+
+    .t2-header {
+        margin-right: 20rem;
+    }
+
+    .t3-header {
+        margin-right: 20rem;
+    }
 }
