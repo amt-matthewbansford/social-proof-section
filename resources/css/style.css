@@ -283,4 +283,53 @@ body {
     .header {
         text-align: center;
     }
+
+    /* Rating Section */
+    .rating {
+        width: 22.6875rem;
+        height: 16.625rem;
+    }
+
+    .review-section {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        justify-items: center;
+    }
+
+    .reviews {
+        margin-right: 0;
+    }
+
+    .report-section {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        justify-items: center;
+        margin-left: 0;
+    }
+
+    .report {
+        margin-right: 0;
+    }
+
+    .besttech-section {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        justify-items: center;
+        margin-left: 0;
+    }
+
+    .besttech {
+        margin-right: 0;
+    }
+
+    /* Stars Spacing */
+    .stars {
+        margin-right: 2.1rem;
+    }
+
+    .stars img {
+        margin-top: 1rem;
+        margin-right: 0;
+    }
+
 }
