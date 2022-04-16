@@ -2,9 +2,9 @@
 * {
     margin: 0;
     box-sizing: border-box;
-  }
+}
 
-  body {
+body {
     width: 100vw;
     min-width: 375px;
     min-height: 100vh;
@@ -12,37 +12,35 @@
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    font-family: 'Spartan', sans-serif;;
+    font-family: 'Spartan', sans-serif;
     background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
     overflow-x: hidden;
   }
-
+  
   .main-container {
     padding: 5rem 1.5rem;
   }
-
+  
   .info-container {
     text-align: center;
   }
-
+  
   .review-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: hsl(300, 43%, 22%);
-    font-weight: 700
   }
-
+  
   .bottom-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
+  
   .rate {
     display: flex;
     flex-direction: column;
@@ -53,19 +51,18 @@
     padding: 0.75rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
+  }
+  
+  .rate .image-container,
+  .rate p {
     margin: 0.25rem 0;
   }
-
-   .image-holder,
-.rate p {
-  margin: 0.25rem 0;
- }
- 
- .heading {
+  
+  .heading {
     color: hsl(300, 43%, 22%);
     margin-bottom: 1.5rem;
   }
-
+  
   .paragraph {
     color: hsl(303, 10%, 53%);
     line-height: 1.5rem;
@@ -73,46 +70,138 @@
     font-size: 0.9rem;
     margin-bottom: 2rem;
   }
-
-  .text {
+  
+  .review-container .text {
     color: hsl(300, 43%, 22%);
     font-weight: 700;
   }
-
+  
   .comment-box {
     background-color: hsl(300, 43%, 22%);
     margin: 1rem 0;
     padding: 3rem 1.75rem;
     border-radius: 0.5rem;
   }
-
+  
   .profile-info {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 1.5rem;
+  }
+  
+  .profile-info .image-container {
     margin-right: 1.5rem;
+  }
+  
+  .profile-info .image-container img {
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .profile-info .info {
     font-size: 0.8rem;
     line-height: 1.25rem;
+  }
+  
+  .profile-info .name {
     color: hsl(0, 0%, 100%);
     font-weight: 700;
   }
   
- .image-holder {
-    margin-right: 1.5rem;
+  .profile-info .verify {
+    color: hsl(333, 80%, 67%);
   }
-
- .image-holder img {
-    width: 40px;
-    border-radius: 50%
- }
-
- .info {
-    font-size: 0.8rem;
-    line-height: 1.25rem;
-  }
-
-  .name {
+  
+  .comment {
     color: hsl(0, 0%, 100%);
-    font-weight: 700;
+    font-size: 0.838rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    body {
+      background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+      background-repeat: no-repeat, no-repeat;
+      background-position: top left, bottom right;
+    }
+    .main-container {
+      padding: 0.25rem;
+      width: 80vw;
+      min-height: 75vh;
+      margin: 5rem 0;
+    }
+  
+    .top-container {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .info-container {
+      flex-grow: 1;
+      flex-basis: 0;
+      text-align: start;
+    }
+  
+    .info-container .heading {
+      width: 75%;
+      font-size: 2.75rem;
+    }
+  
+    .info-container .paragraph {
+      width: 80%;
+    }
+    .review-container {
+      flex-grow: 2;
+      flex-basis: 0;
+      align-items: flex-start;
+    }
+  
+    .rate {
+      display: flex;
+      flex-direction: row;
+      width: 85%;
+      justify-content: flex-start;
+      padding: 1rem 0;
+    }
+  
+    .rate .image-container {
+      margin: 0 2rem;
+    }
+  
+    .reportGuru {
+      margin-left: 2.75rem;
+    }
+  
+    .bestTech {
+      margin-left: 5.56rem;
+    }
+  
+    .bottom-container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+    
+
+    }
+  
+    .comment-box {
+      flex-grow: 1;
+      flex-basis: 0;
+      margin: 0;
+    }
+  
+    .comment-box.colton {
+      margin-top: 2rem;
+    }
+  
+    .comment-box.irene {
+      margin: 0 2rem;
+      margin-top: 4rem;
+    }
+  
+    .comment-box.anne {
+      margin-top: 6rem;
+    }
   }
