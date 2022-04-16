@@ -20,3 +20,37 @@ body {
     margin: 90px 165px 75px 165px;
 }
 
+/* Wrapper Section */
+.wrapper {
+    display: grid;
+    grid-gap: 4.4rem;
+    grid-template-areas: 
+     'header rating'
+     'comments comments';
+    align-items: center;
+}
+
+/* 10,000+ Header Section */
+.header {
+    /* background: yellow; */
+    grid-area: header;
+    width: 27.8125rem;
+    height: 14.6875rem;
+}
+
+.header h2 {
+    color: var(--dark);
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 700;
+    letter-spacing: -1.71429px;
+    margin: 0;
+}
+
+.header p {
+    color: var(--light);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    letter-spacing: -0.5px;
+}
