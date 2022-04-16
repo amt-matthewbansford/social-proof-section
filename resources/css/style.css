@@ -54,3 +54,85 @@ body {
     line-height: 1.5625rem;
     letter-spacing: -0.5px;
 }
+
+/* Rating Section */
+.rating {
+    /* background: var(--dark); */
+    grid-area: rating;
+    height: 12.5rem;
+    min-width: 33.75rem;
+    display: grid;
+    align-content: space-between;
+    /* width: 33.75rem; */
+}
+
+/* Review Rating section */
+.review-section {
+    background: var(--rectangle);
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    min-height: 3.5rem;
+    width: 27.8125rem;
+    padding-left: 2rem;
+    border-radius: 0.5rem;
+
+}
+
+.reviews {
+    /* background: #512051; */
+    margin-right: 5.625rem;
+    min-width: 10.875rem;
+    color: var(--dark);
+    font-size: 0.8125rem;
+}
+
+/* Report Rating Section */
+.report-section {
+    background: var(--rectangle);
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    min-height: 3.5rem;
+    width: 27.8125rem;
+    padding-left: 2rem;
+    border-radius: 0.5rem;
+    margin-left: 6.7rem;
+}
+
+.report {
+    /* background: #512051; */
+    margin-right: 3.75rem;
+    min-width: 12.75rem;
+    color: var(--dark);
+    font-size: 0.8125rem;
+}
+
+/* Best Tech Review Section */
+.besttech-section {
+    background: var(--rectangle);
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    min-height: 3.5rem;
+    width: 27.8125rem;
+    padding-left: 2rem;
+    border-radius: 0.5rem;
+    margin-left: 13.4rem;
+}
+
+.besttech {
+    /* background: #512051; */
+    margin-right: 5.3rem;
+    min-width: 11.1rem;
+    color: var(--dark);
+    font-size: 0.8125rem;
+}
+
+/* Stars Spacing */
+.stars img {
+    margin-right: 0.528125rem;
+}
