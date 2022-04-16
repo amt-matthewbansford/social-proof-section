@@ -257,3 +257,30 @@ body {
     border-radius: 50%;
 }
 
+/* Media Queries */
+@media only screen and (max-width: 374px) {
+    html {
+        background-image: url(../images/bg-pattern-top-mobile.svg) , url(../images/bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat , no-repeat;
+        background-position: left top, right bottom;
+    }
+
+    body {
+        margin: 90px 65px 75px 50px;
+    }
+    /* Wrapper section */
+    .wrapper {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-areas: 
+         'header'
+         'rating'
+         'comments';
+        align-items: center;
+    }
+    
+    /* Header section */
+    .header {
+        text-align: center;
+    }
+}
