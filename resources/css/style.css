@@ -136,3 +136,124 @@ body {
 .stars img {
     margin-right: 0.528125rem;
 }
+
+/* Comments Section */
+.comments {
+    /* background: yellow; */
+    grid-area: comments;
+    display: grid;
+    grid-gap: 1.875rem;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 75.375rem;
+    min-height: 16.625rem;
+}
+
+/* Title Section */
+.title-1 {
+    background: var(--dark);
+    padding: 2.5rem 2rem;
+    height: 10.625rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.t1-header h4 {
+    /* background: yellow; */
+    color: var(--primary);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 14.56px;
+    width: 5rem;
+}
+
+.title-2 {
+    background: var(--dark);
+    padding: 2.5rem 2rem;
+    height: 10.625rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.t2-header h4 {
+    color: var(--primary);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 14.56px;
+    width: 5rem;
+}
+
+.title-3 {
+    background: var(--dark);
+    padding: 2.5rem 2rem;
+    max-height: 10.625rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.t3-header h4 {
+    color: var(--primary);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 14.56px;
+    width: 5rem;
+}
+
+.verified-buyer {
+    color: var(--buyer);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 14.56px;
+}
+
+.title-text {
+    color: var(--primary);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.232143px;
+    margin-top: 0.8rem;
+}
+.t1-header {
+    display: grid;
+    grid-gap: 1.4375rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-right: 10rem;
+    
+}
+
+.t2-header {
+    display: grid;
+    grid-gap: 1.4375rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.t3-header {
+    display: grid;
+    grid-gap: 1.4375rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.t1-header img{
+    max-height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+}
+
+.t2-header img{
+    max-height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+}
+
+.t3-header img{
+    max-height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+}
+
